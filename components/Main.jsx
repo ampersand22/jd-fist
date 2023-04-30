@@ -29,15 +29,15 @@ const Main = () => {
 
     </div>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div className='landing-box'>
+        <div className='w-3/4 py-8'>
           <h1 className='py-4 text-gray-700'>
-            <span className='text-[#2f2f2f]'>JD Griffey</span>
+            <span className='text-[#2f2f2f] bg-yellow-400 bg-opacity-80 py-2 px-2 rounded-sm'>JD Griffey</span>
           </h1>
           <h3 className='py-2 text-gray-700'>#PinGriffeyJr #Perfect10Griffey</h3>
           <q className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             Pinfall, Submission, TKO... I&#39;ll never leave it to the judges.
           </q>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-between max-w-[330px] m-auto py-4 mt-8'>
             <a
               href='https://www.facebook.com/PinGriffeyJr/'
               target='_blank'

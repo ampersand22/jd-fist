@@ -53,7 +53,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-yellow-300'>
         <Link legacyBehavior href='/'>
           <a>
             <Image
@@ -164,7 +164,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+              <p className='uppercase tracking-widest text-[#2f2f2f]'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
@@ -186,14 +186,7 @@ const Navbar = () => {
                     <FaInstagram />
                   </div>
                 </a>
-                <Link legacyBehavior href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
+                
                 
               </div>
             </div>
