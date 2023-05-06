@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import gymchair from "../public/assets/gymchair.jpeg";
 import entrance from "../public/assets/entrance.jpeg";
@@ -11,6 +11,21 @@ import jdbelt1 from "../public/assets/jdbelt1.jpeg";
 const ProWrestling = () => {
   return (
     <div id='prowrestling' className='w-full'>
+      <Box>
+        <Text>
+          Accolades:
+          4x MetroPlex Wrestling Champion, 
+          Texoma Pro Red River Champion, 
+          All-Star Pro Wrestling Champion, 
+          Texoma Pro Texas Champion, 
+          MPX Tag Team Champion - w/ XPAC -, 
+          NWA Texoma Heavyweight Champion, 
+          2x NWA Texas Tag Team Champion - w/ Nobe Bryant -, 
+          RCW Champion,
+          RCW Tag Team Champion - w/ HNIC and Keith Lee -,  
+          PCW Tag Team Champion
+        </Text>
+      </Box>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-3xl tracking-widest uppercase text-[#2f2f2f] py-4 bg-yellow-300 w-60'>
           In The Ring...

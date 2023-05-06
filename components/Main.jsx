@@ -29,20 +29,20 @@ const Main = () => {
 
     </div>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div className='w-3/4 py-8'>
-          <Image 
+        <div className='w-3/4 py-8 backdrop-blur-sm'>
+          {/* <Image 
             src={nameplate}
             alt= "nameplate"
             responsive
             width="100%"
             height="100%"
             priority
-          />
-          {/* <h1 className='py-4 text-gray-700'>
-            <span className='text-[#2f2f2f] bg-yellow-400 bg-opacity-80 py-2 px-2 rounded-sm'>JD Griffey</span>
-          </h1> */}
-          <h3 className='py-2 text-gray-700'>#PinGriffeyJr #Perfect10Griffey</h3>
-          <q className='py-4 text-[#2f2f2f] sm:max-w-[70%] m-auto'>
+          /> */}
+          <h3 className='py-4 text-gray-700'>
+            <span className='text-[#2f2f2f] bg-yellow-400 bg-opacity-80 py-2 px-2 rounded-sm' id="jdname">JD Griffey</span>
+          </h3>
+          <h3 className='py-2 text-gray-700 backdrop-blur-sm'>#PinGriffeyJr #Perfect10Griffey</h3>
+          <q className='py-4 text-[#2f2f2f] sm:max-w-[70%] m-auto backdrop-blur-sm'>
             Pinfall, Submission, TKO... I&#39;ll never leave it to the judges.
           </q>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4 mt-8'>
