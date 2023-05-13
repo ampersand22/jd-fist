@@ -6,6 +6,11 @@ import submission from "../public/assets/submission.jpeg";
 import profileaew from "../public/assets/profileaew.jpeg";
 import jdsuit1 from "../public/assets/jdsuit1.jpeg";
 import jdbelt1 from "../public/assets/jdbelt1.jpeg"; 
+import roh1 from "../public/assets/roh1.jpeg";
+import roh2 from "../public/assets/roh2.jpeg"; 
+import roh3 from "../public/assets/roh3.jpeg"; 
+import roh4 from "../public/assets/roh4.jpeg";  
+
 
 
 const ProWrestling = () => {
@@ -32,6 +37,39 @@ const ProWrestling = () => {
         </p>
         {/* <h2 className='py-4'>In The Ring...</h2> */}
         <div className='grid md:grid-cols-2 gap-8 py-4'>
+        <Image 
+            src={roh1}
+            alt= "roh1"
+            // style={{ objectFit: "cover" }}
+            width={'100%'}
+            height={'100%'}
+            responsive
+          />
+          <Image 
+            src={roh2}
+            alt= "roh2"
+            // style={{ objectFit: "cover" }}
+            width={'100%'}
+            height={'100%'}
+            responsive
+          />
+          <Image 
+            src={roh3}
+            alt= "roh3"
+            // style={{ objectFit: "cover" }}
+            width={'100%'}
+            height={'100%'}
+            responsive
+          />
+          <Image 
+            src={roh4}
+            alt= "roh4"
+            // style={{ objectFit: "cover" }}
+            width={'100%'}
+            height={'100%'}
+            responsive
+          />
+
           <Image 
             src={gymchair}
             alt= "gym chair"
