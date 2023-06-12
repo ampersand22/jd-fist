@@ -118,7 +118,7 @@ const Navbar = () => {
                     width='87'
                     height='35'
                     alt='/'
-                    responsive
+                    responsive='true'
                   />
                 </a>
               </Link>
