@@ -17,17 +17,17 @@ const ProWrestling = () => {
   return (
     <div id='prowrestling' className='w-full'>
       <Box>
-        <Text>
-          Accolades:
-          4x MetroPlex Wrestling Champion, 
-          Texoma Pro Red River Champion, 
-          All-Star Pro Wrestling Champion, 
-          Texoma Pro Texas Champion, 
-          MPX Tag Team Champion - w/ XPAC -, 
-          NWA Texoma Heavyweight Champion, 
-          2x NWA Texas Tag Team Champion - w/ Nobe Bryant -, 
-          RCW Champion,
-          RCW Tag Team Champion - w/ HNIC and Keith Lee -,  
+        <Text className='max-w-[1240px] mx-auto px-6 py-16 text-3xl'>
+          <span className=" text-4xl ">Accolades: </span><br />
+          4x MetroPlex Wrestling Champion <br /> 
+          Texoma Pro Red River Champion <br />  
+          All-Star Pro Wrestling Champion <br />  
+          Texoma Pro Texas Champion <br />  
+          MPX Tag Team Champion - w/ XPAC <br />  
+          NWA Texoma Heavyweight Champion <br />  
+          2x NWA Texas Tag Team Champion - w/ Nobe Bryant <br />  
+          RCW Champion <br /> 
+          RCW Tag Team Champion - w/ HNIC and Keith Lee <br />   
           PCW Tag Team Champion
         </Text>
       </Box>
@@ -43,7 +43,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={roh2}
@@ -51,7 +51,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={roh3}
@@ -59,7 +59,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={roh4}
@@ -67,7 +67,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
 
           <Image 
@@ -76,7 +76,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
 
           <Image 
@@ -85,7 +85,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={submission}
@@ -93,7 +93,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={profileaew}
@@ -101,7 +101,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={jdsuit1}
@@ -109,7 +109,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           <Image 
             src={jdbelt1}
@@ -117,7 +117,7 @@ const ProWrestling = () => {
             // style={{ objectFit: "cover" }}
             width={'100%'}
             height={'100%'}
-            responsive
+            responsive="true"
           />
           
         </div>
