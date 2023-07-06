@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>JD Griffey - Official Website</title>
         <meta name="JD Griffey" content="#teamGriffey" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="#" />
       </Head>
       <Main />
       <Bio />
