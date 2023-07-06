@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Head>
         <title>JD Griffey - Official Website</title>
-        <meta name="description" content="#teamGriffey" />
+        <meta name="JD Griffey" content="#teamGriffey" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
