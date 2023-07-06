@@ -20,7 +20,7 @@ export default function Home() {
       <Bio />
       <ProWrestling />
       <Mma />
-      <Contact />
+      {/* <Contact /> */}
 
     </div>
   )
