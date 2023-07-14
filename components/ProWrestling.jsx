@@ -10,8 +10,12 @@ import roh1 from "../public/assets/roh1.jpeg";
 import roh2 from "../public/assets/roh2.jpeg";
 import roh3 from "../public/assets/roh3.jpeg";
 import roh4 from "../public/assets/roh4.jpeg";
+import roh5 from "../public/assets/roh5.jpeg";
 import vip1 from "../public/assets/jdvip1.jpg";
 import vip2 from "../public/assets/jdvip2.jpg";
+import jdmike1 from "../public/assets/jdmike1.jpeg";
+import jdshane1 from "../public/assets/jdshane1.jpeg";
+
 
 const ProWrestling = () => {
   return (
@@ -55,8 +59,24 @@ const ProWrestling = () => {
             responsive="true"
           />
           <Image
+            src={jdmike1}
+            alt="jdmike1"
+            // style={{ objectFit: "cover" }}
+            width={"100%"}
+            height={"100%"}
+            responsive="true"
+          />
+          <Image
             src={roh1}
             alt="roh1"
+            // style={{ objectFit: "cover" }}
+            width={"100%"}
+            height={"100%"}
+            responsive="true"
+          />
+          <Image
+            src={roh5}
+            alt="roh5"
             // style={{ objectFit: "cover" }}
             width={"100%"}
             height={"100%"}
